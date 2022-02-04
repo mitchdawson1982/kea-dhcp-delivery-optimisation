@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 config/kea_dhcp_input.json
+config/kea_dhcp_output.json
 build/
 develop-eggs/
 dist/
