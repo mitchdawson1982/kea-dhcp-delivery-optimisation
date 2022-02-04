@@ -2,9 +2,10 @@ import json
 import uuid
 import os
 
-KEA_DHCP_INPUT_FILE_PATH = os.path.join(os.getcwd(), 'config', 'kea_dhcp_input.json')
-KEA_DHCP_OUTPUT_FILE_PATH = os.path.join('config', 'kea_dhcp_output.json')
-SITE_ID_GUID_MAP_PATH = os.path.join('config', 'fits_id_guid_map.json')
+CURRENT_PATH = os.getcwd()
+KEA_DHCP_INPUT_FILE_PATH = os.path.join(CURRENT_PATH, 'config', 'kea_dhcp_input.json')
+KEA_DHCP_OUTPUT_FILE_PATH = os.path.join(CURRENT_PATH, 'config', 'kea_dhcp_output.json')
+SITE_ID_GUID_MAP_PATH = os.path.join(CURRENT_PATH, 'config', 'fits_id_guid_map.json')
 
 # Define the dhcp option data structure.
 option_data = [
